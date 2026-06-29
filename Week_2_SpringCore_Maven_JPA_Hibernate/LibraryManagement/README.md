@@ -44,3 +44,7 @@ LibraryManagement/
         │           └── MainApp.java (Entry Point)
         └── resources/
             └── applicationContext.xml (Spring Configuration File)
+
+## ?? Exercise 4: Maven Project Configuration
+**The Goal:** Add multiple Spring dependencies (Context, AOP, WebMVC) and configure the Maven Compiler Plugin.
+**How we did it:** Updated the pom.xml with <dependencies> block for Spring modules and added the maven-compiler-plugin inside the <build> tag, explicitly setting the source and target to Java 1.8.
